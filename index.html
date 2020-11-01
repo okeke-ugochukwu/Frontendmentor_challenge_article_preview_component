@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Article Preview  </title> 
+
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+        <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+            
+        <meta name="description" content="Frontend Mentor Challenge">
+        <meta name="keywords" content="Okeke, Ugochukwu, okeke-ugochukwu, github, frontend, mentor, article, preview, javascript, DOM">
+        <meta name="theme-color" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--Open Graph data-->
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Article Preview Component"/>
+        <meta property="og:description" content="Frontend Mentor Challenge"/>
+        <meta property="og:url" content="https://"/>
+        <meta property="og:image" content=""/>
+        <meta property="og:image:width" content="1200"/>
+        <meta property="og:image:height" content="600"/>
+        <meta property="og:image:alt" content="Website Image Snippet"/>
+        <meta name="robots" content="follow, index">
+
+        <!--Twitter Cards-->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Article Preview Component">
+        <meta name="twitter:description" content="Frontend Mentor Challenge">
+        <meta name="twitter:url" content="https://">
+        <meta name="twitter:image" content="https://">
+        
+
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+    
+        <div class="container">
+           <div class="image">
+           </div>
+
+           <div class="content">
+                <div class="sub_content" id="sub_content">
+                    
+                    <h3>
+                        Shift the overall look and feel by adding these wonderful touches to furniture in your home
+                    </h3>
+
+                    <p>
+                        Ever been in a room and felt like something was missing? Perhaps 
+                        it felt slightly bare and uninviting. I’ve got some simple tips 
+                        to help you make any room feel complete.
+                    </p>
+
+                    
+
+                    <div class="status-bar" id="status-bar">
+                        <div class="img">
+                            <img src="img/avatar-michelle.jpg" alt="avatar" class="avatar">
+                        </div>
+
+                        <div class="status">
+                            <span id="name">Michelle Appleton</span> <br />
+                            <span id="date">28 Jun 2020</span>
+                        </div>
+
+                        <div class="share-btn" id="sb-1" onclick="showShareButtons()">
+                            <img src="img/icon-share.svg" alt="share-btn" class="share" >
+                        </div>
+
+                        <div class="share-btn" id="sb-2">
+                            <img src="img/icon-share.svg" alt="share-btn" class="share" onclick="showShareButtons2()">
+                        </div>
+                    </div>
+                </div>    
+
+                <div class="share-btns" id="share-btns">
+                    <div class="sub-share-btns">
+                        <div class="share-action-btns" id="share-txt-2">
+                            S H A R E
+                        </div>
+
+                        <div>
+                            <a href="#">
+                                <img src="img/icon-facebook.svg" alt="share-to-facebook" class="share-action-btns">
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="#">
+                                <img src="img/icon-twitter.svg" alt="share-to-twitter" class="share-action-btns">
+                            </a>
+                        </div>
+
+                       <div>
+                            <a href="#"> 
+                                <img src="img/icon-pinterest.svg" alt="share-to-pinterest" class="share-action-btns" id="pinterest">
+                            </a>
+                       </div>
+
+                       <div class="share-btn" id="share-btn-2">
+                           <img src="img/icon-share.svg" alt="close-share-button" class="share2" onclick="showShareButtons()">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="share-btns-2" id="share-btns-2" >
+                    <div class="sub-share-btns-2">
+                        <span class="share-action-btns" id="share-txt">S H A R E</span>
+                        <a href="#"><img src="img/icon-facebook.svg" alt="share-to-facebook" class="share-action-btns"></a>
+                        <a href="#"><img src="img/icon-twitter.svg" alt="share-to-twitter" class="share-action-btns"></a>
+                       <a href="#"> <img src="img/icon-pinterest.svg" alt="share-to-pinterest" class="share-action-btns"></a>
+                       <div class="triangle-down">
+
+                       </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
